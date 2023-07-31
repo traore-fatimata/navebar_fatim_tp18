@@ -1,0 +1,351 @@
+.fat1{
+    height:250px;
+    width: 200px; 
+    z-index: 1;
+    position: relative;
+left: 300px;
+top: 60px;
+}
+.fat2{
+    height: 250px ;
+    width:200px ;
+    z-index: 2;
+    position:relative ;
+left: 250px;
+top: 100px;
+
+}
+.fat3{
+    height: 250px;
+    width: 200px;
+    z-index: 3;
+    position:relative ;
+    right: 70px;
+top: 200px;
+}
+.fat{
+    /* background-color: aliceblue; */
+    margin-right: 10px;
+}
+
+.f{
+    background-color: pink;
+    display: flex;
+    height: 600px;
+}
+.fa{
+    /* font-size: 30px; */
+    /* background-color: #000; */
+    width: 50%;
+}
+.fa h1{
+    font-size: 50px;
+}
+.fa p{
+    font-size: 30px;
+}
+.F{
+    background-color: rgb(207, 194, 196);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    ;
+    border-radius: 10px;
+    margin-left: 100px;
+    top: 100px;
+}
+.ff{
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    ;
+    border-radius: 10px;
+    margin-left: 100px;
+    top: 100px;
+}
+
+.v{
+    /* width: 70px; */
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.vi{
+    text-align: center;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+}
+.a2{
+    width: 200px;
+    
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+}
+.b1{
+    width: 200px;
+    
+}
+.c{
+    display: flex;
+    justify-content: space-around;
+}
+.c2{
+    width: 200px;
+    
+}
+.d{
+    display: flex;
+    justify-content: space-around;
+}
+.d1{
+    width: 300px;
+}
+.d2{
+    width: 300px;
+}
+.ee{
+    width: 70px;
+    border-radius: 60px;
+}
+.gg{
+    width: 200px;
+height: 200px;
+}
+.e0{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.e{
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.e1 img{
+    
+    display: block;
+    margin: 50px;
+} 
+
+.gg1{
+    
+    
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding: 1.5rem;
+     gap: 0.7rem;
+}
+
+.tr{
+   display: flex;
+   justify-content: space-between;
+   background-color: blanchedalmond;
+}
+
+.eg{
+    /* justify-content: space-around; */
+}
+.hh{
+    display: flex;
+    justify-content: space-around;
+    margin-left:300px ;
+    margin-right: 300px;
+}
+
+.i{
+   display: flex;
+   justify-content: space-around;
+}
+.h2{
+    background-color: bisque;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+.h1{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+.h3{
+    
+    border: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    z-index: 8;
+   width: 95%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 0 2rem;
+} 
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+/*.toggle{
+    display: none;
+}*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 550px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.btn {
+    border: 0;
+    background: pink;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+.btn-secondary {
+    border: 0;
+    background: pink;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid pink;
+    color: white;
+}
+/*section hero*
+.hero{
+    height: 100vh;
+    background: url('hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    */
+}
+@media all and (max-width: 991px) {
+  
+    header{
+        background: transparent;
+    }
+   .toggle{
+        display: block;
+    }
+}
+.toggle{
+    font-size: 2rem; 
+    
+}
+
+.toggle{
+      cursor: pointer;
+}
+
+
+.toggle{
+position: relative;
+z-index: 20;
+}
+
+.logo{
+    position: relative;
+    z-index: 20;
+}
+
+.ouvrir{
+    display: block;
+}
+
+.fermer{
+    display: none;
+}
+
+.open .ouvrir{
+    display: none;
+}
+
+.open .fermer{
+    display: block;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+    transform: translateX(-100%);
+    transition: transfor 1s;
+}
+
+.open .menu{
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
